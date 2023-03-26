@@ -1,0 +1,28 @@
+int f(){
+	int a;
+	a = 023;
+	a++;
+	a+=1;
+	while(a<10){
+		a = a * 0xa;
+	}
+	return a;
+}
+
+int main(){
+	int _testid;
+	_testid = 0;
+	if(_testid==0){
+		int _testid;
+		int _testid2;
+		_testid1=_testid1+1;
+	}
+	{
+		int a;
+	}
+	{
+		int a;
+	}
+	int b;
+	return 0;
+}

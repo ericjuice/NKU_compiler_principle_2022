@@ -1,0 +1,26 @@
+
+;; Function add (null)
+;; enabled by -tree-original
+
+
+{
+  return x + y;
+}
+
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int a = 1;
+  int b = 2;
+  float c = (float) ((double) add (a, b) * 3.140000000000000124344978758017532527446746826171875e+0);
+
+    int a = 1;
+    int b = 2;
+    float c = (float) ((double) add (a, b) * 3.140000000000000124344978758017532527446746826171875e+0);
+  return 0;
+}
+return 0;
+

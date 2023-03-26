@@ -1,0 +1,32 @@
+int add (int x, int y)
+{
+  int D.2354;
+
+  D.2354 = x + y;
+  return D.2354;
+}
+
+
+int main ()
+{
+  int D.2356;
+
+  {
+    int a;
+    int b;
+    float c;
+
+    a = 1;
+    b = 2;
+    _1 = add (a, b);
+    _2 = (double) _1;
+    _3 = _2 * 3.140000000000000124344978758017532527446746826171875e+0;
+    c = (float) _3;
+    D.2356 = 0;
+    return D.2356;
+  }
+  D.2356 = 0;
+  return D.2356;
+}
+
+
